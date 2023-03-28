@@ -1,11 +1,11 @@
 import Todo from "./assets/components/Todo";
 
-function App() {
+const App = () => {
   return (
     <div>
       <Todo />
     </div>
   );
-}
+};
 
 export default App;
