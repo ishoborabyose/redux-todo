@@ -4,7 +4,7 @@ import App from "./App";
 import "./index.css";
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
-import todoReducer from "./assets/features/todo";
+import todoReducer from "./features/todo";
 
 let store = configureStore({
   reducer: {
