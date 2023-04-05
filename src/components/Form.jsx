@@ -1,5 +1,5 @@
 import { MdAddCircle } from "react-icons/md";
-import { addTodo } from "../features/todo";
+import { addTodo } from "../service/todo";
 import { useDispatch } from "react-redux";
 import { useState } from "react";
 
